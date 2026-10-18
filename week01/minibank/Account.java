@@ -36,9 +36,11 @@ public class Account {
     }
 
     void infoPrint() {
+        System.out.println("--------------------------------------------------");
         System.out.println("AccountId:" + this.accountId);
         System.out.println("Owner Name:" + this.ownerName);
         System.out.println("Account Balance:" + this.balance);
+        System.out.println("--------------------------------------------------");
     }
 
     // 
